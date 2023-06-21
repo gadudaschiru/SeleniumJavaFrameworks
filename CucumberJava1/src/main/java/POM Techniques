@@ -1,0 +1,17 @@
+page Object Repository technique / POM techniques
+
+https://www.selenium.dev/documentation/test_practices/encouraged/page_object_models/
+
+page object modal or page factory is a java designed pattern preferred by 
+google to implement object repository.
+
+Rule #1 - As per the POM create a dedicated java file for each available screen in 
+application and store page specific webElements (locators) in that particular file. 
+eg. Login.java
+
+Rule #2 - As per the POM, object identification can be done by 2 ways - 
+@FindBy & @FindBys
+
+Rule #3 - In order to create the objects of java classes available in page object 
+repository we should take the help of PageFactory class.
+
