@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	<test name="Test">
+		<classes>
+			<class name="parallelTest.TwoTest" />
+			<class name="package2.NewTest" />
+			<class name="package1.RegistrationTest" />
+			<class name="package3.PreserveOrderTest" />
+			<class name="package1.CreateNewCustomerTest" />
+			<class name="parallelTest.OneTest" />
+			<class name="package2.EnabledAndDisbaledTest" />
+			<class name="package1.LoginTest" />
+			<class name="package3.DependsOnTest" />
+			<class name="package2.ModifyCustomerTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
