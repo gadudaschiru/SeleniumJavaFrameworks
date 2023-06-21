@@ -15,7 +15,7 @@ public class WebDriverAPI {
 
 		// Set the property to launch browser.
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\USER\\Desktop\\New folder\\DemoBlaze_Automation\\Drivers\\chromedriver.exe");
+				"C:\\Users\\USER\\git\\SeleniumJavaFrameworks\\DemoBlaze_CapstoneProject\\Drivers\\chromedriver.exe");
 
 		// Launch the light and empty Chrome Browser
 		WebDriver driver = new ChromeDriver();

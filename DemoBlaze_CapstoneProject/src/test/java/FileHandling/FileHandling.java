@@ -40,7 +40,7 @@ public class FileHandling {
 	public static void setExcelData() throws Exception {
 
 		// Step 1: get the path of the file
-		File filepath = new File("..\\May15thAutomation\\TestData\\TestData.xlsx");
+		File filepath = new File("C:\\Users\\USER\\git\\SeleniumJavaFrameworks\\DemoBlaze_CapstoneProject\\Drivers\\chromedriver.exe");
 
 		// Step 2: get the file in readable format
 		FileInputStream fis = new FileInputStream(filepath);
